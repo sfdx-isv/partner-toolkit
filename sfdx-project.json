@@ -1,0 +1,30 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Partner Toolkit",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "A set of resources that make the Partner Business Org easier to use",
+      "dependencies": [
+        {
+          "package": "License Management App@1.21"
+        },
+        {
+          "package": "Feature Management App@2.3"
+        }
+      ]
+    }
+  ],
+  "name": "partner-toolkit",
+  "namespace": "PartnerToolkit",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "License Management App@1.21": "04t30000001DX1F",
+    "Feature Management App@2.3": "04t2J000000RdDT",
+    "Partner Toolkit": "0Hoal000000028HCAQ",
+    "Partner Toolkit@0.1.0-1": "04tal0000001TPlAAM"
+  }
+}
